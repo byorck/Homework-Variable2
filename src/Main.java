@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Значение переменной с типом " + "long" + " равно " + eight);
         System.out.println("Значение переменной с типом " + "float" + " равно " + pointFour);
         System.out.println("Значение переменной с типом " + "double" + " равно " + pointEight);
-        double first = 27.12;  //задача № 2
+        float first = 27.12f;  //задача № 2
         long second = 987678965549L;
         double third = 2.786;
         short fourth = 569;
