@@ -22,7 +22,7 @@ public class Main {
         byte firstTeacher = 23;  //задача № 3
         byte secondTeacher = 27;
         byte thirdTeacher = 30;
-        short summarySheets = 420;
+        short summarySheets = 480;
         int sheetsPerOneStudent = summarySheets / (firstTeacher + secondTeacher + thirdTeacher);
         System.out.println("На каждого ученика расчитано " + sheetsPerOneStudent + " листов бумаги");
         byte bottlePerMinute = 16 / 2;  //задача № 4
