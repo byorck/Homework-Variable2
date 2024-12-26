@@ -30,7 +30,7 @@ public class Main {
         System.out.println("За " + "20 минут" + " машина произвела " + (bottlePerMinute * 20) + " штук бутылок");
         System.out.println("За " + "сутки" + " машина произвела " + bottlePerDay + " штук бутылок");
         System.out.println("За " + "3 дня" + " машина произвела " + (bottlePerDay * 3) + " штук бутылок");
-        System.out.println("За " + "месяц" + " машина произвела " + (bottlePerDay * 365) + " штук бутылок");
+        System.out.println("За " + "месяц" + " машина произвела " + bottlePerMonth + " штук бутылок");
         byte countClassroom = 120 / (2 + 4);  //задача № 5
         int countWhitePaint = countClassroom * 2;
         int countBrownPaint = countClassroom * 4;
