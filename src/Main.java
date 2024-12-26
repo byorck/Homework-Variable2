@@ -14,11 +14,11 @@ public class Main {
         System.out.println("Значение переменной с типом " + "double" + " равно " + pointEight);
         float first = 27.12f;  //задача № 2
         long second = 987678965549L;
-        double third = 2.786;
+        float third = 2.786f;
         short fourth = 569;
         short five = -159;
-        double six = 27897;
-        int seven = 67;
+        short six = 27897;
+        byte seven = 67;
         byte firstTeacher = 23;  //задача № 3
         byte secondTeacher = 27;
         byte thirdTeacher = 30;
@@ -27,6 +27,7 @@ public class Main {
         System.out.println("На каждого ученика расчитано " + sheetsPerOneStudent + " листов бумаги");
         byte bottlePerMinute = 16 / 2;  //задача № 4
         int bottlePerDay = bottlePerMinute * 1440;
+        int bottlePerMonth = bottlePerDay * 30;
         System.out.println("За " + "20 минут" + " машина произвела " + (bottlePerMinute * 20) + " штук бутылок");
         System.out.println("За " + "сутки" + " машина произвела " + bottlePerDay + " штук бутылок");
         System.out.println("За " + "3 дня" + " машина произвела " + (bottlePerDay * 3) + " штук бутылок");
